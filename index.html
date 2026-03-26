@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Busca de CEP</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Buscar Endereço pelo CEP</h2>
+
+      <input type="text" id="cep" maxlength="8" placeholder="Digite o CEP" />
+      <button onclick="buscarCEP()">Buscar</button>
+
+      <p id="mensagem"></p>
+
+      <input type="text" id="logradouro" placeholder="Logradouro" readonly />
+      <input type="text" id="bairro" placeholder="Bairro" readonly />
+      <input type="text" id="cidade" placeholder="Cidade" readonly />
+      <input type="text" id="estado" placeholder="Estado" readonly />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
